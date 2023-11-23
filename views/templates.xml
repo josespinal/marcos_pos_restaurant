@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+      <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+          <link rel="stylesheet" href="/marcos_pos_restaurant/static/src/css/popup.css" />
+          <script type="text/javascript" src="/marcos_pos_restaurant/static/src/js/popup.js"></script>
+          <script type="text/javascript" src="/marcos_pos_restaurant/static/src/js/floor.js"></script>
+        </xpath>
+      </template>
+    </data>
+</odoo>
